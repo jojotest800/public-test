@@ -1,0 +1,7 @@
+node_modules
+test.js
+test2.js
+security_group_file.txt
+.env
+.vscode
+db.sqlite

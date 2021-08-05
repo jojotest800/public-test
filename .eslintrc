@@ -1,0 +1,22 @@
+{
+    "env": {
+      "node": true,
+      "es6": true,
+      "mocha": true
+    },
+    "extends": ["airbnb-standard"],
+    "rules": {
+      "comma-spacing": ["error", { "before": false, "after": true }],
+      "semi": ["error", "never"],
+      "indent": ["error", "tab"],
+      "quotes": ["error", "single"],
+      "linebreak-style": ["error", "unix"],
+      "no-tabs": "off",
+      "jsx-a11y/href-no-hash": "off",
+      "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }],
+      "max-len": ["error", { "code": 120, "ignoreComments": true, "ignoreUrls": true, "ignoreRegExpLiterals": true }],
+      "no-underscore-dangle": "off",
+      "class-methods-use-this": "off"
+    }
+  }
+  
