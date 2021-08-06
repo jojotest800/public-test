@@ -10,7 +10,6 @@ module.exports = class User {
 
   async create(req) {
     // console.log("the new array to handle:", req.newFiles);
-    // const folder = '/home/aymarngams/Documents/'
     // const f = fs.readdirSync(folder)[1];
     // const pathFile = folder + f
     const filesToSaves = [];
