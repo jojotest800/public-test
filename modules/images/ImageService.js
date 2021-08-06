@@ -2,7 +2,6 @@ const sharp = require("sharp");
 const fs = require("fs");
 const path = require("path");
 const uuid = require("uuid");
-const { resolve } = require("path");
 
 module.exports = class User {
   constructor({ postgresDBConnection, awsS3Service }) {
