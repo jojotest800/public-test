@@ -13,6 +13,7 @@ router.put("/:id", api("update"));
 router.delete("/:id", api("delete"));
 
 router.get("/", api("getAll"));
+router.get("/test", api("processSeparate"));
 router.get("/:id", api("getProduct"));
 
 module.exports = router;

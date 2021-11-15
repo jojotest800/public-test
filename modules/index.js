@@ -5,6 +5,7 @@ const Images = require('./images')
 const CronJob = require('./cron/')
 const Product = require('./product')
 const stripe = require('./stripe')
+const Auth = require('./auth')
 
 module.exports = {
     loadModules(container){
@@ -15,5 +16,6 @@ module.exports = {
         CronJob.load(container);
         stripe.load(container);
         Product.load(container);
+        Auth.load(container);
     }
 }

@@ -30,15 +30,15 @@ const init = async () => {
   }
 
   const sequelize = dbInstance(
-    process.env.DB_HOST_PROD,
-    process.env.DB_PORT_PROD,
-    process.env.DB_NAME_PROD,
-    process.env.DB_USER_PROD,
-    process.env.DB_PASS_PROD,
+    process.env.DB_HOST,
+    process.env.DB_PORT,
+    process.env.DB_NAME,
+    process.env.DB_USER,
+    process.env.DB_PASS,
     {
-      database: process.env.DB_NAME_PROD,
-      database: process.env.DB_USER_PROD,
-      username: process.env.DB_PASS_PROD,
+      database: process.env.DB_NAME,
+      database: process.env.DB_USER,
+      username: process.env.DB_PASS,
     }
   );
 

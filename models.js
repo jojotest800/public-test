@@ -1,8 +1,6 @@
 const fs = require("fs");
 const path = require("path");
 
-// const { mo } = require("./models");
-
 const modelsPath = fs
   .readdirSync(`${__dirname}/newsModels`)
   .filter((file) => file.indexOf(".") !== 0 && file !== "index.js")

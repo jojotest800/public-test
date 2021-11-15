@@ -12,7 +12,7 @@ module.exports = {
 
     getAll: (req, res) =>
       userService
-        .getAll(+req.query.page)
+        .getAll(req.user, +req.query.page)
         .then((users) => res.status(200).json({ data: users })),
 
     getUser: (req, res) =>

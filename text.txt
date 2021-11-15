@@ -1,0 +1,37 @@
+1) We get from database arrays of : 
+    -> conversations 
+    -> seller messages 
+    -> buyer messages
+
+    And then flat them to make an array of one level
+
+2) sorting : 
+    predifined options are :
+        sort option : [id , createdAt]
+        sorting type option : [asc, desc]
+
+    _if we have sort option in the query params, we sort all messages by sort option ( createdAt or id ) and with sorting type option ( asc or desc )
+
+    _if no sort option is provided ( id or createdAt ) then
+        => unread messages filtered from result array,
+        => pending unread messages filtered from result array,
+        => readed messages filtered from result array
+        => pending read message filtered from result array
+        
+        are order by createdAt and DESC by default and one array is made 
+
+3 then we got the length of the filtered array.
+    _if we have requestId parameter in query params,the index of the message with the same id is found in the filtered array
+
+        _if the message exists it is found and removed from result array and keeped
+            then a brand new array of messages as result is made according to the values of page and perPage.
+            _if perPage (20 for example ) is set in query params the length of the result array wil be 19 if not it will be 9
+            _if page is not set in query params the page is set to 0
+                and the found message is pus at the begining of the new array
+        
+    _else a brand new array of messages as result is made according to the values of page and perPage.
+        _if perPage (20 for example ) is set in query params the length of the result array wil be 19 if not it will be 9
+            so by default perPage  = 10 and page  = 0
+
+
+Then the array is assign to array property of data object in the response

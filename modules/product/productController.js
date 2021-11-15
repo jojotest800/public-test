@@ -1,5 +1,5 @@
 module.exports = {
-  productsAPIS: ({ productService}) => ({
+  productsAPIS: ({ productService }) => ({
     create: (req, res) =>
       productService
         .create(req, req.params.userId)
@@ -26,6 +26,10 @@ module.exports = {
     userPayments: (req, res) =>
       productService
         .userPayments(req.params.id)
+        .then((data) => res.status(200).json({ data })),
+    processSeparate: (req, res) =>
+      productService
+        .processSeparate()
         .then((data) => res.status(200).json({ data })),
   }),
 };

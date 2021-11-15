@@ -3,7 +3,7 @@ const emitter = require("../events");
 module.exports = class User {
   constructor({ postgresDBConnection, stripeService }) {
     this.db = postgresDBConnection;
-    this.perPage = 2;
+    this.perPage = 3;
     this.stripeService = stripeService;
     emitter.on("NEW_PRODUCT_ADDED", this.alertNewProduct.bind(this));
   }
@@ -26,7 +26,8 @@ module.exports = class User {
     return await this.db.User.update({ ...fields }, { where: { id: userId } });
   }
 
-  async getAll(page = null) {
+  async getAll(user, page = null) {
+    console.log(user);
     const p = page ? page : 1;
     const result = await this.db.User.findAndCountAll({
       offset: (page - 1) * this.perPage,

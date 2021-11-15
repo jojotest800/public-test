@@ -18,6 +18,15 @@ module.exports = {
       lastName: {
         type: Sequelize.STRING,
       },
+      role: {
+        type: Sequelize.STRING,
+      },
+      accessToken: {
+        type: Sequelize.STRING,
+      },
+      idToken: {
+        type: Sequelize.STRING,
+      },
       email: {
         type: Sequelize.STRING,
       },

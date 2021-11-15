@@ -1,6 +1,7 @@
 const { makeInvoker } = require("awilix-express");
 const express = require("express");
 const { usersAPIS } = require("./userController");
+const { auth: isAuthenticated } = require("../../middleware/auth");
 
 const api = makeInvoker(usersAPIS);
 
@@ -15,7 +16,7 @@ router.post("/payment", api("makePayment"));
 router.put("/:id", api("update"));
 router.delete("/:id", api("delete"));
 
-router.get("/", api("getAll"));
+router.get("/", isAuthenticated(), api("getAll"));
 router.get("/transactions", api("getTransactions"));
 router.get("/:id", api("getUser"));
 router.get("/payments/:id", api("userPayments"));

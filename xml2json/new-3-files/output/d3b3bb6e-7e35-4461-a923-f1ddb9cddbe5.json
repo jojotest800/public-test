@@ -1,0 +1,935 @@
+{
+  "ONIXMessage": {
+    "release": "3.0",
+    "xmlns": "http://ns.editeur.org/onix/3.0/reference",
+    "Header": {
+      "Sender": {
+        "SenderIdentifier": { "SenderIDType": "01", "IDValue": "BR101" },
+        "EmailAddress": "info@bokinfo.se"
+      },
+      "SentDateTime": "20211017",
+      "DefaultCurrencyCode": "SEK"
+    },
+    "Product": [
+      {
+        "RecordReference": "9789173877336",
+        "NotificationType": "02",
+        "ProductIdentifier": {
+          "ProductIDType": "15",
+          "IDValue": "9789173877336"
+        },
+        "DescriptiveDetail": {
+          "ProductComposition": "00",
+          "ProductForm": "BC",
+          "ProductFormDetail": "B113",
+          "Measure": [
+            {
+              "MeasureType": "02",
+              "Measurement": "110",
+              "MeasureUnitCode": "mm"
+            },
+            {
+              "MeasureType": "01",
+              "Measurement": "177",
+              "MeasureUnitCode": "mm"
+            },
+            {
+              "MeasureType": "03",
+              "Measurement": "6",
+              "MeasureUnitCode": "mm"
+            },
+            {
+              "MeasureType": "08",
+              "Measurement": "70",
+              "MeasureUnitCode": "gr"
+            }
+          ],
+          "CountryOfManufacture": "LT",
+          "TitleDetail": [
+            {
+              "TitleType": "01",
+              "TitleElement": {
+                "TitleElementLevel": "01",
+                "TitleText": "Din egen väg"
+              }
+            },
+            {
+              "TitleType": "10",
+              "TitleElement": {
+                "TitleElementLevel": "01",
+                "TitleText": "Din egen väg"
+              }
+            }
+          ],
+          "Contributor": [
+            {
+              "SequenceNumber": "1",
+              "ContributorRole": "A01",
+              "PersonNameInverted": "Tudor-Sandahl, Patricia",
+              "NamesBeforeKey": "Patricia",
+              "KeyNames": "Tudor-Sandahl"
+            },
+            {
+              "SequenceNumber": "2",
+              "ContributorRole": "A11",
+              "PersonNameInverted": "Sporrong, Sanna",
+              "NamesBeforeKey": "Sanna",
+              "KeyNames": "Sporrong"
+            }
+          ],
+          "EditionNumber": "1",
+          "Language": { "LanguageRole": "01", "LanguageCode": "swe" },
+          "Extent": {
+            "ExtentType": "00",
+            "ExtentValue": "110",
+            "ExtentUnit": "03"
+          },
+          "Illustrated": "01",
+          "Subject": [
+            {
+              "SubjectSchemeIdentifier": "47",
+              "SubjectCode": "36",
+              "SubjectHeadingText": "Hälsa, skönhet och sex"
+            },
+            { "SubjectSchemeIdentifier": "48", "SubjectCode": "Dokb" },
+            {
+              "MainSubject": {},
+              "SubjectSchemeIdentifier": "93",
+              "SubjectCode": "VSP"
+            },
+            {
+              "SubjectSchemeIdentifier": "20",
+              "SubjectHeadingText": "Livsuppgift;Vägledning;Stress"
+            }
+          ]
+        },
+        "CollateralDetail": {
+          "TextContent": [
+            {
+              "TextType": "03",
+              "ContentAudience": "00",
+              "Text": "<p><i>Inbilla dig inte att du är någon, manar Jantelagen, och får oss att krympa. Bli den du är ämnad att vara! manar kallet, och får oss att växa oss större än vi trodde var möjligt.</i> </p><p>Skulle inte livet vara något mer? Den frågan har psykoterapeuten och författaren Patricia Tudor-Sandahl mött många gånger, både privat och i sitt arbete. En fråga som hon också fått lov att ställa till sig själv. Kanske, menar hon, är det så att en av orsakerna till stressen och oron i vårt samhälle är att vi fått eller tagit på oss uppgifter som är för små för våra själar. </p><p><i>Din egen väg</i> är en inbjudan att ta våra liv på större allvar, att våga sträcka oss i vår fulla längd och söka de vi är ämnade att vara en process som pågår oavsett ålder. Att leva så sant och helhjärtat som vi kan, till vår egen och andras glädje. </p><p><i>\"Du har en rikedom inom dig. Denna insikt kan bli början på en upptäcktsresa utan like.\"</i></p><p>Patricia Tudor-Sandahl är psykolog, psykoterapeut och uppskattad författare och föreläsare. Många har också mött henne som värd för Sommar och Vinter i P1 och som återkommande medarbetare i Tankar för dagen.</p><p>På Libris har Patricia utkommit med bland annat <i>Längtan visar vägen</i> (2014),<i> Din egen väg</i> (2013) och <i>Tusen skäl att vara tacksam</i> (2011). I sin senaste bok, <i>Längtan visar vägen</i>, har Patricia samlat 365 korta texter om livet en text för varje dag under året. </p>"
+            },
+            {
+              "TextType": "02",
+              "ContentAudience": "00",
+              "Text": "Livsuppgift är ett stort ord. Men psykologen och psykoterapeuten Patricia Tudor-Sandahl frågar: Kan det vara så att en av orsakerna till stressen och oron i vårt samhälle är att vi har fått eller tagit på oss uppgifter som är för små för våra själar? <i>Din egen väg</i> innehåller texter om att hitta rätt väg i livet. Om att sträcka ut sig i sin fulla längd och bli den man är ämnad att vara."
+            }
+          ],
+          "SupportingResource": {
+            "ResourceContentType": "01",
+            "ContentAudience": "00",
+            "ResourceMode": "03",
+            "ResourceVersion": {
+              "ResourceForm": "02",
+              "ResourceLink": "http://bilder.forlagssystem.se/9789173877336.jpg?timestamp=201804191231"
+            }
+          }
+        },
+        "PublishingDetail": {
+          "Publisher": {
+            "PublishingRole": "01",
+            "PublisherIdentifier": [
+              {
+                "PublisherIDType": "01",
+                "IDTypeName": "BR-ID",
+                "IDValue": "1898"
+              },
+              {
+                "PublisherIDType": "01",
+                "IDTypeName": "Forlag_kortnamn",
+                "IDValue": "LIBR"
+              }
+            ],
+            "PublisherName": "Libris förlag"
+          },
+          "PublishingDate": { "PublishingDateRole": "01", "Date": "20180903" }
+        },
+        "ProductSupply": {
+          "SupplyDetail": [
+            {
+              "Supplier": {
+                "SupplierRole": "02",
+                "SupplierIdentifier": [
+                  {
+                    "SupplierIDType": "01",
+                    "IDTypeName": "BR-ID",
+                    "IDValue": "104"
+                  },
+                  {
+                    "SupplierIDType": "01",
+                    "IDTypeName": "Distributor_kortnamn",
+                    "IDValue": "FSYS"
+                  },
+                  { "SupplierIDType": "06", "IDValue": "7381000023101" }
+                ],
+                "SupplierName": "Förlagssystem"
+              },
+              "ProductAvailability": "21",
+              "Stock": { "OnHand": "999" },
+              "Price": {
+                "PriceType": "05",
+                "PriceAmount": "31.00",
+                "Tax": { "TaxType": "01", "TaxRatePercent": "6" }
+              }
+            },
+            {
+              "Supplier": {
+                "SupplierRole": "03",
+                "SupplierIdentifier": [
+                  {
+                    "SupplierIDType": "01",
+                    "IDTypeName": "BR-ID",
+                    "IDValue": "1581"
+                  },
+                  {
+                    "SupplierIDType": "01",
+                    "IDTypeName": "Distributor_kortnamn",
+                    "IDValue": "SDIST"
+                  },
+                  { "SupplierIDType": "06", "IDValue": "7300009034628" }
+                ],
+                "SupplierName": "StjärnDistribution"
+              },
+              "ProductAvailability": "21",
+              "Stock": { "OnHand": "4" },
+              "Price": {
+                "PriceType": "05",
+                "PriceAmount": "31.00",
+                "Tax": { "TaxType": "01", "TaxRatePercent": "6" }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "RecordReference": "9789188430427",
+        "NotificationType": "03",
+        "ProductIdentifier": [
+          { "ProductIDType": "15", "IDValue": "9789188430427" },
+          { "ProductIDType": "03", "IDValue": "9789188430427" }
+        ],
+        "DescriptiveDetail": {
+          "ProductComposition": "00",
+          "ProductForm": "BC",
+          "ProductFormDetail": "B116",
+          "Measure": [
+            {
+              "MeasureType": "02",
+              "Measurement": "160",
+              "MeasureUnitCode": "mm"
+            },
+            {
+              "MeasureType": "01",
+              "Measurement": "240",
+              "MeasureUnitCode": "mm"
+            },
+            {
+              "MeasureType": "03",
+              "Measurement": "40",
+              "MeasureUnitCode": "mm"
+            },
+            {
+              "MeasureType": "08",
+              "Measurement": "1198",
+              "MeasureUnitCode": "gr"
+            }
+          ],
+          "TitleDetail": [
+            {
+              "TitleType": "01",
+              "TitleElement": {
+                "TitleElementLevel": "01",
+                "TitleText": "Svensk studiebibel : bibeltext: Svenska folkbibeln 2015"
+              }
+            },
+            {
+              "TitleType": "10",
+              "TitleElement": {
+                "TitleElementLevel": "01",
+                "TitleText": "Studiebibeln 2017"
+              }
+            }
+          ],
+          "Contributor": [
+            {
+              "SequenceNumber": "1",
+              "ContributorRole": "B21",
+              "PersonNameInverted": "Gilbrant, Thoralf",
+              "NamesBeforeKey": "Thoralf",
+              "KeyNames": "Gilbrant"
+            },
+            {
+              "SequenceNumber": "2",
+              "ContributorRole": "A12",
+              "PersonNameInverted": "Palmgren, Anders",
+              "NamesBeforeKey": "Anders",
+              "KeyNames": "Palmgren"
+            }
+          ],
+          "EditionNumber": "1",
+          "Language": { "LanguageRole": "01", "LanguageCode": "swe" },
+          "Extent": {
+            "ExtentType": "00",
+            "ExtentValue": "1846",
+            "ExtentUnit": "03"
+          },
+          "Illustrated": "02",
+          "Subject": [
+            {
+              "SubjectSchemeIdentifier": "47",
+              "SubjectCode": "16",
+              "SubjectHeadingText": "Religion"
+            },
+            { "SubjectSchemeIdentifier": "48", "SubjectCode": "Cb" },
+            {
+              "MainSubject": {},
+              "SubjectSchemeIdentifier": "93",
+              "SubjectCode": "QRMF"
+            }
+          ]
+        },
+        "CollateralDetail": {
+          "TextContent": [
+            {
+              "TextType": "03",
+              "ContentAudience": "00",
+              "Text": "* Kedjehänvisningar<br>\n* Markeringar av viktiga ämnen<br>\n* Talkoder i bibeltexten med tillhörande ordförklaringar<br>\n* Ett omfattande bibellexikon<br>\n* Över 500 illustrationer och kartor<br>\n* Fyrfärgsbilaga med bibliska fakta och kartor<br>\n* Två sidor information om varje bibelbok<br>\n* Bibelhandbok<br>\n* Bibellexikon<br>\n* Bibelläsningsplan <br>\n* Utförliga fotnoter och referenssystem och mycket annat"
+            },
+            {
+              "TextType": "02",
+              "ContentAudience": "00",
+              "Text": "Studiebibeln 2017<br>\nSvenska Folkbibelns översättning 2015<br>\nExklusivt utförande i svart skinn<br>"
+            }
+          ],
+          "SupportingResource": {
+            "ResourceContentType": "01",
+            "ContentAudience": "00",
+            "ResourceMode": "03",
+            "ResourceVersion": {
+              "ResourceForm": "02",
+              "ResourceLink": "https://webshop.livetsord.se/wp-content/uploads/2017/11/Studiebibel_2017.jpg"
+            }
+          }
+        },
+        "PublishingDetail": {
+          "Publisher": {
+            "PublishingRole": "01",
+            "PublisherIdentifier": [
+              {
+                "PublisherIDType": "01",
+                "IDTypeName": "BR-ID",
+                "IDValue": "1516"
+              },
+              {
+                "PublisherIDType": "01",
+                "IDTypeName": "Forlag_kortnamn",
+                "IDValue": "LIVO"
+              }
+            ],
+            "PublisherName": "Livets Ords Förlag"
+          },
+          "PublishingDate": { "PublishingDateRole": "01", "Date": "20171127" }
+        },
+        "ProductSupply": {
+          "SupplyDetail": [
+            {
+              "Supplier": {
+                "SupplierRole": "02",
+                "SupplierIdentifier": [
+                  {
+                    "SupplierIDType": "01",
+                    "IDTypeName": "BR-ID",
+                    "IDValue": "1516"
+                  },
+                  {
+                    "SupplierIDType": "01",
+                    "IDTypeName": "Distributor_kortnamn",
+                    "IDValue": "LIVO"
+                  }
+                ],
+                "SupplierName": "Livets Ords Förlag"
+              },
+              "ProductAvailability": "21",
+              "Stock": { "OnHand": "0" },
+              "Price": {
+                "PriceType": "05",
+                "PriceAmount": "753.96",
+                "Tax": { "TaxType": "01", "TaxRatePercent": "6" }
+              }
+            },
+            {
+              "Supplier": {
+                "SupplierRole": "03",
+                "SupplierIdentifier": [
+                  {
+                    "SupplierIDType": "01",
+                    "IDTypeName": "BR-ID",
+                    "IDValue": "1581"
+                  },
+                  {
+                    "SupplierIDType": "01",
+                    "IDTypeName": "Distributor_kortnamn",
+                    "IDValue": "SDIST"
+                  },
+                  { "SupplierIDType": "06", "IDValue": "7300009034628" }
+                ],
+                "SupplierName": "StjärnDistribution"
+              },
+              "ProductAvailability": "21",
+              "Stock": { "OnHand": "11" },
+              "Price": {
+                "PriceType": "05",
+                "PriceAmount": "753.96",
+                "Tax": { "TaxType": "01", "TaxRatePercent": "6" }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "RecordReference": "9789179852634",
+        "NotificationType": "03",
+        "ProductIdentifier": {
+          "ProductIDType": "15",
+          "IDValue": "9789179852634"
+        },
+        "DescriptiveDetail": {
+          "ProductComposition": "00",
+          "ProductForm": "BE",
+          "Measure": [
+            {
+              "MeasureType": "02",
+              "Measurement": "137",
+              "MeasureUnitCode": "mm"
+            },
+            {
+              "MeasureType": "01",
+              "Measurement": "132",
+              "MeasureUnitCode": "mm"
+            },
+            {
+              "MeasureType": "03",
+              "Measurement": "30",
+              "MeasureUnitCode": "mm"
+            },
+            {
+              "MeasureType": "08",
+              "Measurement": "364",
+              "MeasureUnitCode": "gr"
+            }
+          ],
+          "TitleDetail": [
+            {
+              "TitleType": "01",
+              "TitleElement": {
+                "TitleElementLevel": "01",
+                "TitleText": "365 härliga dagar : en positiv tanke för varje dag"
+              }
+            },
+            {
+              "TitleType": "10",
+              "TitleElement": {
+                "TitleElementLevel": "01",
+                "TitleText": "365 härliga dagar: en positiv tanke för varje dag"
+              }
+            },
+            {
+              "TitleType": "03",
+              "TitleElement": {
+                "TitleElementLevel": "01",
+                "TitleText": "365 Happy Days"
+              }
+            }
+          ],
+          "Contributor": {
+            "SequenceNumber": "1",
+            "ContributorRole": "B06",
+            "PersonNameInverted": "Meijer, Annika",
+            "NamesBeforeKey": "Annika",
+            "KeyNames": "Meijer"
+          },
+          "Language": [
+            { "LanguageRole": "02", "LanguageCode": "eng" },
+            { "LanguageRole": "01", "LanguageCode": "swe" }
+          ],
+          "Extent": {
+            "ExtentType": "00",
+            "ExtentValue": "368",
+            "ExtentUnit": "03"
+          },
+          "Illustrated": "02",
+          "Subject": [
+            {
+              "SubjectSchemeIdentifier": "47",
+              "SubjectCode": "60",
+              "SubjectHeadingText": "Blandat"
+            },
+            {
+              "MainSubject": {},
+              "SubjectSchemeIdentifier": "93",
+              "SubjectCode": "WZS"
+            },
+            { "SubjectSchemeIdentifier": "93", "SubjectCode": "GBCQ" }
+          ]
+        },
+        "CollateralDetail": {
+          "TextContent": [
+            {
+              "TextType": "03",
+              "ContentAudience": "00",
+              "Text": "En samling kloka och tänkvärda citat.<br><br>\nStäll den på sängbordet och börja dagen med ett positivt budskap, eller ställ den på skrivbordet och börja arbetsdagen med en glad affirmation!<br><br>\nBoken är också en utmärkt present eftersom den kommer i en fin låda. Det inbyggda bordstället är lätt att veckla ut. En stor spiralbindning gör det lätt att bläddra."
+            },
+            {
+              "TextType": "02",
+              "ContentAudience": "00",
+              "Text": "365 kloka och tänkvärda citat. Fin present och perfekt för sängbordet eller skrivbordet."
+            }
+          ],
+          "SupportingResource": {
+            "ResourceContentType": "01",
+            "ContentAudience": "00",
+            "ResourceMode": "03",
+            "ResourceVersion": {
+              "ResourceForm": "02",
+              "ResourceLink": "http://bilder.forlagssystem.se/9789179852634.jpg?timestamp=202004211414"
+            }
+          }
+        },
+        "PublishingDetail": {
+          "Publisher": [
+            {
+              "PublishingRole": "01",
+              "PublisherIdentifier": [
+                {
+                  "PublisherIDType": "01",
+                  "IDTypeName": "BR-ID",
+                  "IDValue": "4132"
+                },
+                {
+                  "PublisherIDType": "01",
+                  "IDTypeName": "Forlag_kortnamn",
+                  "IDValue": "TUKA"
+                }
+              ],
+              "PublisherName": "Tukan förlag"
+            },
+            { "PublishingRole": "04", "PublisherName": "Helen Exley Publ" }
+          ],
+          "PublishingDate": [
+            {
+              "PublishingDateRole": "09",
+              "Date": { "dateformat": "12", "$t": "2020 Höst" }
+            },
+            { "PublishingDateRole": "01", "Date": "20200909" }
+          ]
+        },
+        "ProductSupply": {
+          "SupplyDetail": [
+            {
+              "Supplier": {
+                "SupplierRole": "02",
+                "SupplierIdentifier": [
+                  {
+                    "SupplierIDType": "01",
+                    "IDTypeName": "BR-ID",
+                    "IDValue": "104"
+                  },
+                  {
+                    "SupplierIDType": "01",
+                    "IDTypeName": "Distributor_kortnamn",
+                    "IDValue": "FSYS"
+                  },
+                  { "SupplierIDType": "06", "IDValue": "7381000023101" }
+                ],
+                "SupplierName": "Förlagssystem"
+              },
+              "ProductAvailability": "30",
+              "SupplyDate": { "SupplyDateRole": "08", "Date": "20211104" },
+              "Stock": { "OnHand": "0" },
+              "Price": {
+                "PriceType": "05",
+                "PriceAmount": "82.00",
+                "Tax": { "TaxType": "01", "TaxRatePercent": "6" }
+              }
+            },
+            {
+              "Supplier": {
+                "SupplierRole": "03",
+                "SupplierIdentifier": [
+                  {
+                    "SupplierIDType": "01",
+                    "IDTypeName": "BR-ID",
+                    "IDValue": "1581"
+                  },
+                  {
+                    "SupplierIDType": "01",
+                    "IDTypeName": "Distributor_kortnamn",
+                    "IDValue": "SDIST"
+                  },
+                  { "SupplierIDType": "06", "IDValue": "7300009034628" }
+                ],
+                "SupplierName": "StjärnDistribution"
+              },
+              "ProductAvailability": "21",
+              "Stock": { "OnHand": "3" },
+              "Price": {
+                "PriceType": "05",
+                "PriceAmount": "82.00",
+                "Tax": { "TaxType": "01", "TaxRatePercent": "6" }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "RecordReference": "9789152701461",
+        "NotificationType": "03",
+        "ProductIdentifier": [
+          { "ProductIDType": "15", "IDValue": "9789152701461" },
+          { "ProductIDType": "03", "IDValue": "9789152701461" }
+        ],
+        "DescriptiveDetail": {
+          "ProductComposition": "00",
+          "ProductForm": "BB",
+          "Measure": [
+            {
+              "MeasureType": "02",
+              "Measurement": "145",
+              "MeasureUnitCode": "mm"
+            },
+            {
+              "MeasureType": "01",
+              "Measurement": "220",
+              "MeasureUnitCode": "mm"
+            },
+            {
+              "MeasureType": "03",
+              "Measurement": "23",
+              "MeasureUnitCode": "mm"
+            },
+            {
+              "MeasureType": "08",
+              "Measurement": "462",
+              "MeasureUnitCode": "gr"
+            }
+          ],
+          "CountryOfManufacture": "SE",
+          "TitleDetail": [
+            {
+              "TitleType": "01",
+              "TitleElement": {
+                "TitleElementLevel": "01",
+                "TitleText": "Framtid ska min dotter heta"
+              }
+            },
+            {
+              "TitleType": "10",
+              "TitleElement": {
+                "TitleElementLevel": "01",
+                "TitleText": "Framtid ska min dotter heta"
+              }
+            }
+          ],
+          "Contributor": {
+            "SequenceNumber": "1",
+            "ContributorRole": "A01",
+            "PersonNameInverted": "Andersson, Bernt Olov",
+            "NamesBeforeKey": "Bernt Olov",
+            "KeyNames": "Andersson",
+            "ContributorDate": {
+              "ContributorDateRole": "50",
+              "Date": { "dateformat": "05", "$t": "1947" }
+            }
+          },
+          "EditionNumber": "1",
+          "Language": { "LanguageRole": "01", "LanguageCode": "swe" },
+          "Extent": {
+            "ExtentType": "00",
+            "ExtentValue": "297",
+            "ExtentUnit": "03"
+          },
+          "Illustrated": "01",
+          "Subject": [
+            {
+              "SubjectSchemeIdentifier": "47",
+              "SubjectCode": "03",
+              "SubjectHeadingText": "Svenska berättare"
+            },
+            { "SubjectSchemeIdentifier": "48", "SubjectCode": "Hc" },
+            {
+              "MainSubject": {},
+              "SubjectSchemeIdentifier": "93",
+              "SubjectCode": "FV"
+            },
+            { "SubjectSchemeIdentifier": "93", "SubjectCode": "FXS" },
+            { "SubjectSchemeIdentifier": "96", "SubjectCode": "3MNQ" }
+          ]
+        },
+        "CollateralDetail": {
+          "TextContent": [
+            {
+              "TextType": "03",
+              "ContentAudience": "00",
+              "Text": "Året är 1886. I en av brukssamhällets fattiga familjer föds ännu ett barn. Pojken Mauritz är dömd att gå i sin fars fotspår och arbeta i järnverket bland flytande järn och surrande valsar. En livsfarlig miljö som bryter ner arbetare som samtliga går en för tidig död till mötes.\nFabrikens disponent hatar socialister och ser sina fattiga arbetare som sina personliga ägodelar. Han är beredd att göra allt för att stoppa de nya tankar som börjar göra sig gällande i landet. Agitatorer besöker bruket och uppmanar kvinnor och män till revolt. Bruksherrarna går samman för att svartlista och vräka de familjer som börjat reflektera över sina liv, som försöker bilda sig och överleva genom att organisera sig. En hård kamp uppstår där de fattiga folket slutligen segrar. Men allt har sitt pris.\nRomanen är en fristående fortsättning på \"Kanal\"."
+            },
+            {
+              "TextType": "02",
+              "ContentAudience": "00",
+              "Text": "Det är i slutet av 1800-talet. I en av brukssamhällets fattiga familjer föds ännu ett barn. Pojken Mauritz är dömd att gå i sin fars fotspår och arbeta i järnverket. En livsfarlig miljö som bryter ner arbetare som går en för tidig död till mötes. Fabrikens disponent hatar socialister och ser sina fattiga arbetare som sina personliga ägodelar. I hemlighet organiserar arbetarna sig. Disponenten avskedar och vräker familjerna med arbetarna segrar till slut."
+            }
+          ],
+          "SupportingResource": {
+            "ResourceContentType": "01",
+            "ContentAudience": "00",
+            "ResourceMode": "03",
+            "ResourceVersion": {
+              "ResourceForm": "02",
+              "ResourceLink": "https://scontent-arn2-1.xx.fbcdn.net/v/t39.30808-6/p843x403/242188137_10158681022523207_2714323351646101468_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=8BH8S7w8RyAAX-4p_Ht&_nc_ht=scontent-arn2-1.xx&oh=c2856e39696a17f00b5b85181ae946f9&oe=614DCDCE"
+            }
+          }
+        },
+        "PublishingDetail": {
+          "Publisher": {
+            "PublishingRole": "01",
+            "PublisherIdentifier": [
+              {
+                "PublisherIDType": "01",
+                "IDTypeName": "BR-ID",
+                "IDValue": "4675"
+              },
+              {
+                "PublisherIDType": "01",
+                "IDTypeName": "Forlag_kortnamn",
+                "IDValue": "REPT"
+              }
+            ],
+            "PublisherName": "Bokförlaget Reptil"
+          },
+          "PublishingDate": [
+            { "PublishingDateRole": "01", "Date": "20211016" },
+            { "PublishingDateRole": "23", "Date": "20211016" }
+          ]
+        },
+        "ProductSupply": {
+          "SupplyDetail": {
+            "Supplier": {
+              "SupplierRole": "02",
+              "SupplierIdentifier": [
+                {
+                  "SupplierIDType": "01",
+                  "IDTypeName": "BR-ID",
+                  "IDValue": "4675"
+                },
+                {
+                  "SupplierIDType": "01",
+                  "IDTypeName": "Distributor_kortnamn",
+                  "IDValue": "REPT"
+                }
+              ],
+              "SupplierName": "Bokförlaget Reptil"
+            },
+            "ProductAvailability": "21",
+            "Stock": { "OnHand": "999" },
+            "Price": {
+              "PriceType": "05",
+              "PriceAmount": "100.00",
+              "Tax": { "TaxType": "01", "TaxRatePercent": "6" }
+            }
+          }
+        }
+      },
+      {
+        "RecordReference": "9789198544879",
+        "NotificationType": "02",
+        "ProductIdentifier": [
+          { "ProductIDType": "15", "IDValue": "9789198544879" },
+          { "ProductIDType": "03", "IDValue": "9789198544879" }
+        ],
+        "DescriptiveDetail": {
+          "ProductComposition": "00",
+          "ProductForm": "BC",
+          "ProductFormDetail": "B504",
+          "ProductFormFeature": {
+            "ProductFormFeatureType": "40",
+            "ProductFormFeatureDescription": "FSC"
+          },
+          "Measure": [
+            {
+              "MeasureType": "02",
+              "Measurement": "135",
+              "MeasureUnitCode": "mm"
+            },
+            {
+              "MeasureType": "01",
+              "Measurement": "210",
+              "MeasureUnitCode": "mm"
+            },
+            {
+              "MeasureType": "03",
+              "Measurement": "27",
+              "MeasureUnitCode": "mm"
+            },
+            {
+              "MeasureType": "08",
+              "Measurement": "410",
+              "MeasureUnitCode": "gr"
+            }
+          ],
+          "CountryOfManufacture": "PL",
+          "TitleDetail": [
+            {
+              "TitleType": "01",
+              "TitleElement": {
+                "TitleElementLevel": "01",
+                "TitleText": "Att förstå inom psykiatri och socialpsykiatri"
+              }
+            },
+            {
+              "TitleType": "10",
+              "TitleElement": {
+                "TitleElementLevel": "01",
+                "TitleText": "Att förstå inom psykiatri och socialpsykiatri"
+              }
+            }
+          ],
+          "Contributor": [
+            {
+              "SequenceNumber": "1",
+              "ContributorRole": "A01",
+              "PersonNameInverted": "Borell, Mats",
+              "NamesBeforeKey": "Mats",
+              "KeyNames": "Borell",
+              "ContributorDate": {
+                "ContributorDateRole": "50",
+                "Date": { "dateformat": "05", "$t": "1955" }
+              }
+            },
+            {
+              "SequenceNumber": "2",
+              "ContributorRole": "A01",
+              "PersonNameInverted": "Borell, Eva-Lena",
+              "NamesBeforeKey": "Eva-Lena",
+              "KeyNames": "Borell",
+              "ContributorDate": {
+                "ContributorDateRole": "50",
+                "Date": { "dateformat": "05", "$t": "1957" }
+              }
+            },
+            {
+              "SequenceNumber": "3",
+              "ContributorRole": "A01",
+              "PersonNameInverted": "Abrams, Daniel",
+              "NamesBeforeKey": "Daniel",
+              "KeyNames": "Abrams",
+              "ContributorDate": {
+                "ContributorDateRole": "50",
+                "Date": { "dateformat": "05", "$t": "1970" }
+              }
+            },
+            {
+              "SequenceNumber": "4",
+              "ContributorRole": "A01",
+              "PersonNameInverted": "Wikeby, Maria",
+              "NamesBeforeKey": "Maria",
+              "KeyNames": "Wikeby",
+              "ContributorDate": {
+                "ContributorDateRole": "50",
+                "Date": { "dateformat": "05", "$t": "1976" }
+              }
+            }
+          ],
+          "EditionNumber": "1",
+          "Language": { "LanguageRole": "01", "LanguageCode": "swe" },
+          "Extent": {
+            "ExtentType": "00",
+            "ExtentValue": "330",
+            "ExtentUnit": "03"
+          },
+          "Illustrated": "02",
+          "Subject": [
+            {
+              "SubjectSchemeIdentifier": "47",
+              "SubjectCode": "38",
+              "SubjectHeadingText": "Psykologi"
+            },
+            {
+              "MainSubject": {},
+              "SubjectSchemeIdentifier": "93",
+              "SubjectCode": "JM"
+            },
+            {
+              "SubjectSchemeIdentifier": "20",
+              "SubjectHeadingText": "psykiatri;diagnos;samtal;funktionsnedsättning;beteendeanalys"
+            }
+          ]
+        },
+        "CollateralDetail": {
+          "TextContent": [
+            {
+              "TextType": "03",
+              "ContentAudience": "00",
+              "Text": "Vad är psykisk ohälsa? Varför drabbas vissa av oss av psykiatriska sjukdomar? Hur kan du som arbetar inom psykiatri och socialpsykiatri förstå - tillsammans med klient och närstående?\nAtt förstå inom psykiatri och socialpsykiatri ger djupgående förklaringar om  hur vi tillsammans kan förstå psykisk ohälsa.\nBoken går igenom: samtalet som grund och hur vi kan utveckla det i möte med klienter med funktionsnedsättningar; beteendeanalys; diagnos och symtom, psykologisk förståelse av hur olika diagnoser kan uppstå och vidmakthållas samt; funktionsnedsättningar och funktionshinder.\nBoken vänder sig till dig som har nära kontakt med klienter med psykisk ohälsa, som professionell eller student inom psykiatri och socialpsykiatri."
+            },
+            {
+              "TextType": "02",
+              "ContentAudience": "00",
+              "Text": "Att förstå inom psykiatri och socialpsykiatri ger djupgående förklaringar om  hur vi tillsammans kan förstå psykisk ohälsa.\nBoken går igenom: samtalet som grund och hur vi kan utveckla det i möte med klienter med funktionsnedsättningar; beteendeanalys; diagnos och symtom, psykologisk förståelse av hur olika diagnoser kan uppstå och vidmakthållas samt; funktionsnedsättningar och funktionshinder."
+            }
+          ]
+        },
+        "PublishingDetail": {
+          "Publisher": {
+            "PublishingRole": "01",
+            "PublisherIdentifier": [
+              {
+                "PublisherIDType": "01",
+                "IDTypeName": "BR-ID",
+                "IDValue": "9714"
+              },
+              {
+                "PublisherIDType": "01",
+                "IDTypeName": "Forlag_kortnamn",
+                "IDValue": "BOLL"
+              }
+            ],
+            "PublisherName": "Borell Förlag"
+          },
+          "PublishingDate": [
+            { "PublishingDateRole": "01", "Date": "20211001" },
+            { "PublishingDateRole": "02", "Date": "20211001" },
+            { "PublishingDateRole": "23", "Date": "20211001" }
+          ]
+        },
+        "ProductSupply": {
+          "SupplyDetail": {
+            "Supplier": {
+              "SupplierRole": "02",
+              "SupplierIdentifier": [
+                {
+                  "SupplierIDType": "01",
+                  "IDTypeName": "BR-ID",
+                  "IDValue": "9714"
+                },
+                {
+                  "SupplierIDType": "01",
+                  "IDTypeName": "Distributor_kortnamn",
+                  "IDValue": "BOLL"
+                },
+                { "SupplierIDType": "06", "IDValue": "7365566694494" }
+              ],
+              "SupplierName": "Borell Förlag"
+            },
+            "ProductAvailability": "21",
+            "Stock": { "OnHand": "999" },
+            "Price": {
+              "PriceType": "05",
+              "PriceAmount": "240.00",
+              "Tax": { "TaxType": "01", "TaxRatePercent": "6" }
+            }
+          }
+        }
+      }
+    ]
+  }
+}
