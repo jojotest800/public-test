@@ -1,4 +1,4 @@
-const emitter = require('../../modules/events')
+const emitter = require('../../../modules/events')
 
 module,exports = {
     afterCreate : (resource) => {

@@ -13,6 +13,7 @@
     "@aws-sdk/client-s3": "^3.21.0",
     "@aws-sdk/s3-request-presigner": "^3.21.0",
     "amazon-cognito-identity-js": "^5.0.6",
+    "assert": "^2.0.0",
     "awesome-phonenumber": "^2.56.2",
     "awilix": "^4.3.4",
     "awilix-express": "^4.0.0",

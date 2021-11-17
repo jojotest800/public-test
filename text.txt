@@ -35,3 +35,18 @@
 
 
 Then the array is assign to array property of data object in the response
+
+
+
+ReferenceCoded is missing from header
+
+Header BuyerParty we are missing AdditionalPartyID
+
+
+Header BuyerParty we are missing PostalAddress
+
+Header SellerParty we are missing in AdditionalPartyID <PartyIDType>SellersAccountNumber</PartyIDType>
+
+
+
+

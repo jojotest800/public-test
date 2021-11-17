@@ -8,9 +8,21 @@ const helmet = require("helmet");
 const compression = require("compression");
 const { postgres } = require("./db_connetions");
 const bodyParser = require("body-parser");
-const PORT = 5500;
 
 const app = express();
+
+let shuttingDown = false;
+let httpServer;
+
+app.use((req, res, next) => {
+  if (!shuttingDown) {
+    return next();
+  }
+
+  res.header("Connection", "close");
+  const err = new Error("Server is in process of restarting");
+  return next(err);
+});
 
 app.use(compression());
 app.use(helmet());
@@ -27,9 +39,13 @@ app.use(
   })
 );
 
-// app.use(express.json());
+app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 const container = require("./container");
+
+const env = container.resolve('env')
+
+console.log(env.getEnvVal('NODE_ENV'))
 
 app.use(scopePerRequest(container));
 
@@ -52,29 +68,32 @@ module.exports = {
 
     container.resolve("cronService").tasks();
 
+    const httpPort = env.getEnvVal('SERVER_HTTP_PORT')
     await new Promise((resolve) => {
-      httpServer = http.createServer(app).listen(PORT, resolve);
+      httpServer = http.createServer(app).listen(httpPort, resolve);
     });
 
-    console.log("Server started on port :", PORT);
+    console.log("Server started on port :", httpPort);
 
     return httpServer;
   },
   stopServer: async (exit) => {
+    shuttingDown = true;
     const tostop = await Promise.race([
       Promise.all([
         new Promise((resolve) =>
           httpServer ? httpServer.close(resolve) : resolve()
         ),
-        postgres.close()
+        postgres.close(),
       ]),
       new Promise((resolve) => setTimeout(resolve, 90 * 1000, "timeout")),
     ]);
-    if (tostop) {
-      console.log("Closing all connections");
+    if (tostop !== "timeout") {
+      console.info("Closed out remaining connections");
       if (exit) process.exit();
       return;
     }
+    console.info("Could not close in tiome, now forcing shutdown");
     if (exit) {
       process.exit(1);
     }

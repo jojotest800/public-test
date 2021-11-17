@@ -1254,3 +1254,23 @@ function localGenerator (s3 = null, books, fileNumber) {
 		})
 	})
 }
+
+// async function localFileWriter (buffer, fileName) {
+// 	// eslint-disable-next-line global-require
+// 	const fs = require('fs')
+// 	fs.open(fileName, 'w', (err, fd) => {
+// 		if (err) {
+// 			// eslint-disable-next-line no-throw-literal
+// 			throw `could not open file: ${err}`
+// 		}
+//
+// 		// eslint-disable-next-line no-shadow
+// 		fs.write(fd, buffer, 0, buffer.length, null, (err) => {
+// 			// eslint-disable-next-line no-throw-literal
+// 			if (err) throw `error writing file: ${err}`
+// 			fs.close(fd, () => {
+// 				console.log('wrote the file successfully')
+// 			})
+// 		})
+// 	})
+// }

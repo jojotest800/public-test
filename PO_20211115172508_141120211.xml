@@ -26,13 +26,13 @@
       </PartyID>
     </Receiver>
     <PurposeCode>Original</PurposeCode>
-    <SentDateTime>20211115T1449</SentDateTime>
+    <SentDateTime>20211115T1725</SentDateTime>
   </EDItXMessageHeader>
   <EDItXMessagePayload>
     <Order version="1.3">
       <Header>
         <OrderNumber>141120211</OrderNumber>
-        <IssueDateTime>20211115T1449</IssueDateTime>
+        <IssueDateTime>20211115T1725</IssueDateTime>
         <PurposeCode>Original</PurposeCode>
         <BuyerParty>
           <PartyID>
