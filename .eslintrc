@@ -14,7 +14,7 @@
       "no-tabs": "off",
       "jsx-a11y/href-no-hash": "off",
       "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }],
-      "max-len": ["error", { "code": 120, "ignoreComments": true, "ignoreUrls": true, "ignoreRegExpLiterals": true }],
+      "max-len": ["error", { "code": 200, "ignoreComments": true, "ignoreUrls": true, "ignoreRegExpLiterals": true }],
       "no-underscore-dangle": "off",
       "class-methods-use-this": "off"
     }
