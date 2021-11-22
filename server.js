@@ -53,7 +53,6 @@ module.exports = {
 	app,
 	container,
 	startSrever: async () => {
-		// eslint-disable-next-line camelcase
 		const db_cons = await Promise.props({
 			postgresDBCon: postgres.init()
 		})
